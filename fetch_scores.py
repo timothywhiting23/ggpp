@@ -26,7 +26,7 @@ ESPN_TEAM = "https://site.api.espn.com/apis/site/v2/sports/football/college-foot
 CONFS = ["AAC", "ACC", "Big 12", "Big 10", "USA", "MAC", "MW", "Pac 12", "SEC", "SBC"]
 CONF_LABEL = {  # friendly names for display
     "AAC": "American", "ACC": "ACC", "Big 12": "Big 12", "Big 10": "Big Ten",
-    "USA": "Conference USA", "MAC": "MAC", "MW": "Mountain West",
+    "USA": "CUSA", "MAC": "MAC", "MW": "MW",
     "Pac 12": "Pac-12", "SEC": "SEC", "SBC": "Sun Belt",
 }
 

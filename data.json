@@ -21,7 +21,7 @@
     },
     {
       "key": "USA",
-      "label": "Conference USA"
+      "label": "CUSA"
     },
     {
       "key": "MAC",
@@ -29,7 +29,7 @@
     },
     {
       "key": "MW",
-      "label": "Mountain West"
+      "label": "MW"
     },
     {
       "key": "Pac 12",
@@ -822,7 +822,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Delaware",
           "wins": 1,
           "summary": "1-0",
@@ -842,7 +842,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "No. Dakota State",
           "wins": 1,
           "summary": "1-0",
@@ -931,7 +931,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Missouri State",
           "wins": 0,
           "summary": "0-0",
@@ -951,7 +951,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "San Jos\u00e9 State",
           "wins": 1,
           "summary": "1-1",
@@ -1040,7 +1040,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -1060,7 +1060,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "No. Dakota State",
           "wins": 1,
           "summary": "1-0",
@@ -1149,7 +1149,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Kennesaw St",
           "wins": 1,
           "summary": "1-0",
@@ -1169,7 +1169,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -1258,7 +1258,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Delaware",
           "wins": 1,
           "summary": "1-0",
@@ -1278,7 +1278,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -1367,7 +1367,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -1387,7 +1387,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "No Dakota St",
           "wins": 1,
           "summary": "1-0",
@@ -1476,7 +1476,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -1496,7 +1496,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "No Dakota St",
           "wins": 1,
           "summary": "1-0",
@@ -1585,7 +1585,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Missouri State",
           "wins": 0,
           "summary": "0-0",
@@ -1605,7 +1605,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Air Force",
           "wins": 0,
           "summary": "0-0",
@@ -1694,7 +1694,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Kennesaw St",
           "wins": 1,
           "summary": "1-0",
@@ -1714,7 +1714,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Air Force",
           "wins": 0,
           "summary": "0-0",
@@ -1803,7 +1803,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -1823,7 +1823,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "New Mexico",
           "wins": 0,
           "summary": "0-0",
@@ -1912,7 +1912,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -1932,7 +1932,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "No. Dakota State",
           "wins": 1,
           "summary": "1-0",
@@ -2021,7 +2021,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -2041,7 +2041,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "No. Dakota State",
           "wins": 1,
           "summary": "1-0",
@@ -2130,7 +2130,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "New Mexico St",
           "wins": 0,
           "summary": "0-1",
@@ -2150,7 +2150,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "New Mexico",
           "wins": 0,
           "summary": "0-0",
@@ -2239,7 +2239,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Jacksonville St",
           "wins": 0,
           "summary": "0-1",
@@ -2259,7 +2259,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Northern Illinois",
           "wins": 0,
           "summary": "0-0",
@@ -2348,7 +2348,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Missouri State",
           "wins": 0,
           "summary": "0-0",
@@ -2368,7 +2368,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "San Jos\u00e9 State",
           "wins": 1,
           "summary": "1-1",
@@ -2457,7 +2457,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -2477,7 +2477,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "New Mexico",
           "wins": 0,
           "summary": "0-0",
@@ -2566,7 +2566,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -2586,7 +2586,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "New Mexico",
           "wins": 0,
           "summary": "0-0",
@@ -2675,7 +2675,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -2695,7 +2695,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Air Force",
           "wins": 0,
           "summary": "0-0",
@@ -2784,7 +2784,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -2804,7 +2804,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "New Mexico",
           "wins": 0,
           "summary": "0-0",
@@ -2893,7 +2893,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -2913,7 +2913,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -3002,7 +3002,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "West. Kentucky",
           "wins": 0,
           "summary": "0-0",
@@ -3022,7 +3022,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Hawaii",
           "wins": 0,
           "summary": "0-1",
@@ -3111,7 +3111,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -3131,7 +3131,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Hawaii",
           "wins": 0,
           "summary": "0-1",
@@ -3220,7 +3220,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -3240,7 +3240,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -3329,7 +3329,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -3349,7 +3349,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -3438,7 +3438,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Liberty",
           "wins": 0,
           "summary": "0-0",
@@ -3458,7 +3458,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "Hawaii",
           "wins": 0,
           "summary": "0-1",
@@ -3547,7 +3547,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Missouri State",
           "wins": 0,
           "summary": "0-0",
@@ -3567,7 +3567,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -3656,7 +3656,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "Jacksonville St",
           "wins": 0,
           "summary": "0-1",
@@ -3676,7 +3676,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
@@ -3765,7 +3765,7 @@
         },
         {
           "conf": "USA",
-          "confLabel": "Conference USA",
+          "confLabel": "CUSA",
           "label": "New Mexico St",
           "wins": 0,
           "summary": "0-1",
@@ -3785,7 +3785,7 @@
         },
         {
           "conf": "MW",
-          "confLabel": "Mountain West",
+          "confLabel": "MW",
           "label": "UNLV",
           "wins": 0,
           "summary": "0-1",
