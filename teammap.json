@@ -1,0 +1,404 @@
+{
+  "Air Force": {
+    "id": "2005",
+    "name": "Air Force Falcons",
+    "shortName": "Air Force",
+    "logo": null
+  },
+  "App State": {
+    "id": "2026",
+    "name": "App State Mountaineers",
+    "shortName": "App State",
+    "logo": null
+  },
+  "Army": {
+    "id": "349",
+    "name": "Army Black Knights",
+    "shortName": "Army",
+    "logo": null
+  },
+  "BYU": {
+    "id": "252",
+    "name": "BYU Cougars",
+    "shortName": "BYU",
+    "logo": null
+  },
+  "Boise State": {
+    "id": "68",
+    "name": "Boise State Broncos",
+    "shortName": "Boise St",
+    "logo": null
+  },
+  "Boston College": {
+    "id": "103",
+    "name": "Boston College Eagles",
+    "shortName": "Boston College",
+    "logo": null
+  },
+  "Bowling Green": {
+    "id": "189",
+    "name": "Bowling Green Falcons",
+    "shortName": "Bowling Green",
+    "logo": null
+  },
+  "Buffalo": {
+    "id": "2084",
+    "name": "Buffalo Bulls",
+    "shortName": "Buffalo",
+    "logo": null
+  },
+  "Clemson": {
+    "id": "228",
+    "name": "Clemson Tigers",
+    "shortName": "Clemson",
+    "logo": null
+  },
+  "Coastal Carolina": {
+    "id": "324",
+    "name": "Coastal Carolina Chanticleers",
+    "shortName": "Coastal",
+    "logo": null
+  },
+  "Delaware": {
+    "id": "48",
+    "name": "Delaware Blue Hens",
+    "shortName": "Delaware",
+    "logo": null
+  },
+  "Duke": {
+    "id": "150",
+    "name": "Duke Blue Devils",
+    "shortName": "Duke",
+    "logo": null
+  },
+  "Fresno State": {
+    "id": "278",
+    "name": "Fresno State Bulldogs",
+    "shortName": "Fresno St",
+    "logo": null
+  },
+  "Georgia": {
+    "id": "61",
+    "name": "Georgia Bulldogs",
+    "shortName": "Georgia",
+    "logo": null
+  },
+  "Georgia State": {
+    "id": "2247",
+    "name": "Georgia State Panthers",
+    "shortName": "Georgia St",
+    "logo": null
+  },
+  "Georgia Tech": {
+    "id": "59",
+    "name": "Georgia Tech Yellow Jackets",
+    "shortName": "Georgia Tech",
+    "logo": null
+  },
+  "Hawaii": {
+    "id": "62",
+    "name": "Hawai'i Rainbow Warriors",
+    "shortName": "Hawai'i",
+    "logo": null
+  },
+  "Indiana": {
+    "id": "84",
+    "name": "Indiana Hoosiers",
+    "shortName": "Indiana",
+    "logo": null
+  },
+  "Jacksonville St": {
+    "id": "55",
+    "name": "Jacksonville State Gamecocks",
+    "shortName": "Jax State",
+    "logo": null
+  },
+  "James Madison": {
+    "id": "256",
+    "name": "James Madison Dukes",
+    "shortName": "James Madison",
+    "logo": null
+  },
+  "Kansas State": {
+    "id": "2306",
+    "name": "Kansas State Wildcats",
+    "shortName": "Kansas St",
+    "logo": null
+  },
+  "Kennesaw St": {
+    "id": "338",
+    "name": "Kennesaw State Owls",
+    "shortName": "Kennesaw St",
+    "logo": null
+  },
+  "Kent State": {
+    "id": "2309",
+    "name": "Kent State Golden Flashes",
+    "shortName": "Kent State",
+    "logo": null
+  },
+  "Kentucky": {
+    "id": "96",
+    "name": "Kentucky Wildcats",
+    "shortName": "Kentucky",
+    "logo": null
+  },
+  "Liberty": {
+    "id": "2335",
+    "name": "Liberty Flames",
+    "shortName": "Liberty",
+    "logo": null
+  },
+  "Louisville": {
+    "id": "97",
+    "name": "Louisville Cardinals",
+    "shortName": "Louisville",
+    "logo": null
+  },
+  "Marshall": {
+    "id": "276",
+    "name": "Marshall Thundering Herd",
+    "shortName": "Marshall",
+    "logo": null
+  },
+  "Massachusetts": {
+    "id": "113",
+    "name": "Massachusetts Minutemen",
+    "shortName": "UMass",
+    "logo": null
+  },
+  "Memphis": {
+    "id": "235",
+    "name": "Memphis Tigers",
+    "shortName": "Memphis",
+    "logo": null
+  },
+  "Miami": {
+    "id": "2390",
+    "name": "Miami Hurricanes",
+    "shortName": "Miami",
+    "logo": null
+  },
+  "Miami (OH)": {
+    "id": "193",
+    "name": "Miami (OH) RedHawks",
+    "shortName": "Miami OH",
+    "logo": null
+  },
+  "Michigan": {
+    "id": "130",
+    "name": "Michigan Wolverines",
+    "shortName": "Michigan",
+    "logo": null
+  },
+  "Missouri State": {
+    "id": "2623",
+    "name": "Missouri State Bears",
+    "shortName": "Missouri St",
+    "logo": null
+  },
+  "Navy": {
+    "id": "2426",
+    "name": "Navy Midshipmen",
+    "shortName": "Navy",
+    "logo": null
+  },
+  "New Mexico": {
+    "id": "167",
+    "name": "New Mexico Lobos",
+    "shortName": "New Mexico",
+    "logo": null
+  },
+  "New Mexico St": {
+    "id": "166",
+    "name": "New Mexico State Aggies",
+    "shortName": "New Mexico St",
+    "logo": null
+  },
+  "No Dakota St": {
+    "id": "2449",
+    "name": "North Dakota State Bison",
+    "shortName": "N Dakota St",
+    "logo": null
+  },
+  "No. Dakota State": {
+    "id": "2449",
+    "name": "North Dakota State Bison",
+    "shortName": "N Dakota St",
+    "logo": null
+  },
+  "North Texas": {
+    "id": "249",
+    "name": "North Texas Mean Green",
+    "shortName": "North Texas",
+    "logo": null
+  },
+  "Northern Illinois": {
+    "id": "2459",
+    "name": "Northern Illinois Huskies",
+    "shortName": "N Illinois",
+    "logo": null
+  },
+  "Ohio": {
+    "id": "195",
+    "name": "Ohio Bobcats",
+    "shortName": "Ohio",
+    "logo": null
+  },
+  "Ohio State": {
+    "id": "194",
+    "name": "Ohio State Buckeyes",
+    "shortName": "Ohio State",
+    "logo": null
+  },
+  "Old Dominion": {
+    "id": "295",
+    "name": "Old Dominion Monarchs",
+    "shortName": "Old Dominion",
+    "logo": null
+  },
+  "Ole Miss": {
+    "id": "145",
+    "name": "Ole Miss Rebels",
+    "shortName": "Ole Miss",
+    "logo": null
+  },
+  "Oregon": {
+    "id": "2483",
+    "name": "Oregon Ducks",
+    "shortName": "Oregon",
+    "logo": null
+  },
+  "Oregon State": {
+    "id": "204",
+    "name": "Oregon State Beavers",
+    "shortName": "Oregon St",
+    "logo": null
+  },
+  "Pittsburgh": {
+    "id": "221",
+    "name": "Pittsburgh Panthers",
+    "shortName": "Pitt",
+    "logo": null
+  },
+  "SMU": {
+    "id": "2567",
+    "name": "SMU Mustangs",
+    "shortName": "SMU",
+    "logo": null
+  },
+  "San Diego St": {
+    "id": "21",
+    "name": "San Diego State Aztecs",
+    "shortName": "San Diego St",
+    "logo": null
+  },
+  "San Jos\u00e9 State": {
+    "id": "23",
+    "name": "San Jos\u00e9 State Spartans",
+    "shortName": "San Jos\u00e9 St",
+    "logo": null
+  },
+  "South Alabama": {
+    "id": "6",
+    "name": "South Alabama Jaguars",
+    "shortName": "South Alabama",
+    "logo": null
+  },
+  "South Florida": {
+    "id": "58",
+    "name": "South Florida Bulls",
+    "shortName": "South Florida",
+    "logo": null
+  },
+  "Southern Miss": {
+    "id": "2572",
+    "name": "Southern Miss Golden Eagles",
+    "shortName": "Southern Miss",
+    "logo": null
+  },
+  "Stanford": {
+    "id": "24",
+    "name": "Stanford Cardinal",
+    "shortName": "Stanford",
+    "logo": null
+  },
+  "Texas": {
+    "id": "251",
+    "name": "Texas Longhorns",
+    "shortName": "Texas",
+    "logo": null
+  },
+  "Texas A&M": {
+    "id": "245",
+    "name": "Texas A&M Aggies",
+    "shortName": "Texas A&M",
+    "logo": null
+  },
+  "Texas Tech": {
+    "id": "2641",
+    "name": "Texas Tech Red Raiders",
+    "shortName": "Texas Tech",
+    "logo": null
+  },
+  "Toledo": {
+    "id": "2649",
+    "name": "Toledo Rockets",
+    "shortName": "Toledo",
+    "logo": null
+  },
+  "Troy": {
+    "id": "2653",
+    "name": "Troy Trojans",
+    "shortName": "Troy",
+    "logo": null
+  },
+  "Tulane": {
+    "id": "2655",
+    "name": "Tulane Green Wave",
+    "shortName": "Tulane",
+    "logo": null
+  },
+  "UCLA": {
+    "id": "26",
+    "name": "UCLA Bruins",
+    "shortName": "UCLA",
+    "logo": null
+  },
+  "UNLV": {
+    "id": "2439",
+    "name": "UNLV Rebels",
+    "shortName": "UNLV",
+    "logo": null
+  },
+  "Utah": {
+    "id": "254",
+    "name": "Utah Utes",
+    "shortName": "Utah",
+    "logo": null
+  },
+  "Utah State": {
+    "id": "328",
+    "name": "Utah State Aggies",
+    "shortName": "Utah State",
+    "logo": null
+  },
+  "Virginia": {
+    "id": "258",
+    "name": "Virginia Cavaliers",
+    "shortName": "Virginia",
+    "logo": null
+  },
+  "West Michigan": {
+    "id": "2711",
+    "name": "Western Michigan Broncos",
+    "shortName": "W Michigan",
+    "logo": null
+  },
+  "West. Kentucky": {
+    "id": "98",
+    "name": "Western Kentucky Hilltoppers",
+    "shortName": "Western KY",
+    "logo": null
+  }
+}

@@ -1,0 +1,3895 @@
+{
+  "title": "Grandma Gail's Pigskin Picks 2026",
+  "updated": "September 05, 2026 at 02:59 AM",
+  "updated_iso": "2026-09-05T02:59:29",
+  "conferences": [
+    {
+      "key": "AAC",
+      "label": "American"
+    },
+    {
+      "key": "ACC",
+      "label": "ACC"
+    },
+    {
+      "key": "Big 12",
+      "label": "Big 12"
+    },
+    {
+      "key": "Big 10",
+      "label": "Big Ten"
+    },
+    {
+      "key": "USA",
+      "label": "Conference USA"
+    },
+    {
+      "key": "MAC",
+      "label": "MAC"
+    },
+    {
+      "key": "MW",
+      "label": "Mountain West"
+    },
+    {
+      "key": "Pac 12",
+      "label": "Pac-12"
+    },
+    {
+      "key": "SEC",
+      "label": "SEC"
+    },
+    {
+      "key": "SBC",
+      "label": "Sun Belt"
+    }
+  ],
+  "teams": {
+    "103": {
+      "id": "103",
+      "name": "Boston College Eagles",
+      "shortName": "Boston College",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "113": {
+      "id": "113",
+      "name": "Massachusetts Minutemen",
+      "shortName": "UMass",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "130": {
+      "id": "130",
+      "name": "Michigan Wolverines",
+      "shortName": "Michigan",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "145": {
+      "id": "145",
+      "name": "Ole Miss Rebels",
+      "shortName": "Ole Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "150": {
+      "id": "150",
+      "name": "Duke Blue Devils",
+      "shortName": "Duke",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "166": {
+      "id": "166",
+      "name": "New Mexico State Aggies",
+      "shortName": "New Mexico St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "summary": "0-1"
+    },
+    "167": {
+      "id": "167",
+      "name": "New Mexico Lobos",
+      "shortName": "New Mexico",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "189": {
+      "id": "189",
+      "name": "Bowling Green Falcons",
+      "shortName": "Bowling Green",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "193": {
+      "id": "193",
+      "name": "Miami (OH) RedHawks",
+      "shortName": "Miami OH",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "194": {
+      "id": "194",
+      "name": "Ohio State Buckeyes",
+      "shortName": "Ohio State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "195": {
+      "id": "195",
+      "name": "Ohio Bobcats",
+      "shortName": "Ohio",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2005": {
+      "id": "2005",
+      "name": "Air Force Falcons",
+      "shortName": "Air Force",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2026": {
+      "id": "2026",
+      "name": "App State Mountaineers",
+      "shortName": "App State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "204": {
+      "id": "204",
+      "name": "Oregon State Beavers",
+      "shortName": "Oregon St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2084": {
+      "id": "2084",
+      "name": "Buffalo Bulls",
+      "shortName": "Buffalo",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "21": {
+      "id": "21",
+      "name": "San Diego State Aztecs",
+      "shortName": "San Diego St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "221": {
+      "id": "221",
+      "name": "Pittsburgh Panthers",
+      "shortName": "Pitt",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2247": {
+      "id": "2247",
+      "name": "Georgia State Panthers",
+      "shortName": "Georgia St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "228": {
+      "id": "228",
+      "name": "Clemson Tigers",
+      "shortName": "Clemson",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "23": {
+      "id": "23",
+      "name": "San Jos\u00e9 State Spartans",
+      "shortName": "San Jos\u00e9 St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "games": 2,
+      "summary": "1-1"
+    },
+    "2306": {
+      "id": "2306",
+      "name": "Kansas State Wildcats",
+      "shortName": "Kansas St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2309": {
+      "id": "2309",
+      "name": "Kent State Golden Flashes",
+      "shortName": "Kent State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2335": {
+      "id": "2335",
+      "name": "Liberty Flames",
+      "shortName": "Liberty",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "235": {
+      "id": "235",
+      "name": "Memphis Tigers",
+      "shortName": "Memphis",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "2390": {
+      "id": "2390",
+      "name": "Miami Hurricanes",
+      "shortName": "Miami",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "24": {
+      "id": "24",
+      "name": "Stanford Cardinal",
+      "shortName": "Stanford",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "2426": {
+      "id": "2426",
+      "name": "Navy Midshipmen",
+      "shortName": "Navy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2439": {
+      "id": "2439",
+      "name": "UNLV Rebels",
+      "shortName": "UNLV",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "summary": "0-1"
+    },
+    "2449": {
+      "id": "2449",
+      "name": "North Dakota State Bison",
+      "shortName": "N Dakota St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "245": {
+      "id": "245",
+      "name": "Texas A&M Aggies",
+      "shortName": "Texas A&M",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2459": {
+      "id": "2459",
+      "name": "Northern Illinois Huskies",
+      "shortName": "N Illinois",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2483": {
+      "id": "2483",
+      "name": "Oregon Ducks",
+      "shortName": "Oregon",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "249": {
+      "id": "249",
+      "name": "North Texas Mean Green",
+      "shortName": "North Texas",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "251": {
+      "id": "251",
+      "name": "Texas Longhorns",
+      "shortName": "Texas",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "252": {
+      "id": "252",
+      "name": "BYU Cougars",
+      "shortName": "BYU",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "254": {
+      "id": "254",
+      "name": "Utah Utes",
+      "shortName": "Utah",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "256": {
+      "id": "256",
+      "name": "James Madison Dukes",
+      "shortName": "James Madison",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2567": {
+      "id": "2567",
+      "name": "SMU Mustangs",
+      "shortName": "SMU",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2572": {
+      "id": "2572",
+      "name": "Southern Miss Golden Eagles",
+      "shortName": "Southern Miss",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "258": {
+      "id": "258",
+      "name": "Virginia Cavaliers",
+      "shortName": "Virginia",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "26": {
+      "id": "26",
+      "name": "UCLA Bruins",
+      "shortName": "UCLA",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2623": {
+      "id": "2623",
+      "name": "Missouri State Bears",
+      "shortName": "Missouri St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2641": {
+      "id": "2641",
+      "name": "Texas Tech Red Raiders",
+      "shortName": "Texas Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2649": {
+      "id": "2649",
+      "name": "Toledo Rockets",
+      "shortName": "Toledo",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2653": {
+      "id": "2653",
+      "name": "Troy Trojans",
+      "shortName": "Troy",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2655": {
+      "id": "2655",
+      "name": "Tulane Green Wave",
+      "shortName": "Tulane",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "2711": {
+      "id": "2711",
+      "name": "Western Michigan Broncos",
+      "shortName": "W Michigan",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "276": {
+      "id": "276",
+      "name": "Marshall Thundering Herd",
+      "shortName": "Marshall",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "278": {
+      "id": "278",
+      "name": "Fresno State Bulldogs",
+      "shortName": "Fresno St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "295": {
+      "id": "295",
+      "name": "Old Dominion Monarchs",
+      "shortName": "Old Dominion",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "324": {
+      "id": "324",
+      "name": "Coastal Carolina Chanticleers",
+      "shortName": "Coastal",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "328": {
+      "id": "328",
+      "name": "Utah State Aggies",
+      "shortName": "Utah State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "338": {
+      "id": "338",
+      "name": "Kennesaw State Owls",
+      "shortName": "Kennesaw St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "349": {
+      "id": "349",
+      "name": "Army Black Knights",
+      "shortName": "Army",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "48": {
+      "id": "48",
+      "name": "Delaware Blue Hens",
+      "shortName": "Delaware",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "summary": "1-0"
+    },
+    "55": {
+      "id": "55",
+      "name": "Jacksonville State Gamecocks",
+      "shortName": "Jax State",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "summary": "0-1"
+    },
+    "58": {
+      "id": "58",
+      "name": "South Florida Bulls",
+      "shortName": "South Florida",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "59": {
+      "id": "59",
+      "name": "Georgia Tech Yellow Jackets",
+      "shortName": "Georgia Tech",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "summary": "0-1"
+    },
+    "6": {
+      "id": "6",
+      "name": "South Alabama Jaguars",
+      "shortName": "South Alabama",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "61": {
+      "id": "61",
+      "name": "Georgia Bulldogs",
+      "shortName": "Georgia",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "62": {
+      "id": "62",
+      "name": "Hawai'i Rainbow Warriors",
+      "shortName": "Hawai'i",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "summary": "0-1"
+    },
+    "68": {
+      "id": "68",
+      "name": "Boise State Broncos",
+      "shortName": "Boise St",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "84": {
+      "id": "84",
+      "name": "Indiana Hoosiers",
+      "shortName": "Indiana",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "96": {
+      "id": "96",
+      "name": "Kentucky Wildcats",
+      "shortName": "Kentucky",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "97": {
+      "id": "97",
+      "name": "Louisville Cardinals",
+      "shortName": "Louisville",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    },
+    "98": {
+      "id": "98",
+      "name": "Western Kentucky Hilltoppers",
+      "shortName": "Western KY",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "summary": "0-0"
+    }
+  },
+  "standings": [
+    {
+      "name": "Becca",
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "games": 3,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Clemson",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+          "teamName": "Clemson Tigers",
+          "teamId": "228"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Utah",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+          "teamName": "Utah Utes",
+          "teamId": "254"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "UCLA",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+          "teamName": "UCLA Bruins",
+          "teamId": "26"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Delaware",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+          "teamName": "Delaware Blue Hens",
+          "teamId": "48"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Ohio",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+          "teamName": "Ohio Bobcats",
+          "teamId": "195"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "No. Dakota State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+          "teamName": "North Dakota State Bison",
+          "teamId": "2449"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Kentucky",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+          "teamName": "Kentucky Wildcats",
+          "teamId": "96"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Marshall",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+          "teamName": "Marshall Thundering Herd",
+          "teamId": "276"
+        }
+      ]
+    },
+    {
+      "name": "Lauren",
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "games": 4,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "North Texas",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+          "teamName": "North Texas Mean Green",
+          "teamId": "249"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Stanford",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+          "teamName": "Stanford Cardinal",
+          "teamId": "24"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Missouri State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+          "teamName": "Missouri State Bears",
+          "teamId": "2623"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Kent State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+          "teamName": "Kent State Golden Flashes",
+          "teamId": "2309"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "San Jos\u00e9 State",
+          "wins": 1,
+          "summary": "1-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+          "teamName": "San Jos\u00e9 State Spartans",
+          "teamId": "23"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Texas A&M",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+          "teamName": "Texas A&M Aggies",
+          "teamId": "245"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Georgia State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+          "teamName": "Georgia State Panthers",
+          "teamId": "2247"
+        }
+      ]
+    },
+    {
+      "name": "Natalie",
+      "wins": 2,
+      "losses": 0,
+      "ties": 0,
+      "games": 2,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "South Florida",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+          "teamName": "South Florida Bulls",
+          "teamId": "58"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Stanford",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+          "teamName": "Stanford Cardinal",
+          "teamId": "24"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "West Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+          "teamName": "Western Michigan Broncos",
+          "teamId": "2711"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "No. Dakota State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+          "teamName": "North Dakota State Bison",
+          "teamId": "2449"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Utah State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+          "teamName": "Utah State Aggies",
+          "teamId": "328"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "South Alabama",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+          "teamName": "South Alabama Jaguars",
+          "teamId": "6"
+        }
+      ]
+    },
+    {
+      "name": "Gail",
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "games": 3,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+          "teamName": "Michigan Wolverines",
+          "teamId": "130"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Kennesaw St",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+          "teamName": "Kennesaw State Owls",
+          "teamId": "338"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Utah State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+          "teamName": "Utah State Aggies",
+          "teamId": "328"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Georgia State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+          "teamName": "Georgia State Panthers",
+          "teamId": "2247"
+        }
+      ]
+    },
+    {
+      "name": "Stevie",
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "games": 3,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Pittsburgh",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+          "teamName": "Pittsburgh Panthers",
+          "teamId": "221"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Delaware",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+          "teamName": "Delaware Blue Hens",
+          "teamId": "48"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Massachusetts",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+          "teamName": "Massachusetts Minutemen",
+          "teamId": "113"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Oregon State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+          "teamName": "Oregon State Beavers",
+          "teamId": "204"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Old Dominion",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+          "teamName": "Old Dominion Monarchs",
+          "teamId": "295"
+        }
+      ]
+    },
+    {
+      "name": "Bruce",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Louisville",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+          "teamName": "Louisville Cardinals",
+          "teamId": "97"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Indiana",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+          "teamName": "Indiana Hoosiers",
+          "teamId": "84"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "No Dakota St",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+          "teamName": "North Dakota State Bison",
+          "teamId": "2449"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Emma",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "No Dakota St",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+          "teamName": "North Dakota State Bison",
+          "teamId": "2449"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Kate",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Duke",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+          "teamName": "Duke Blue Devils",
+          "teamId": "150"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+          "teamName": "Michigan Wolverines",
+          "teamId": "130"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Missouri State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+          "teamName": "Missouri State Bears",
+          "teamId": "2623"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Air Force",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+          "teamName": "Air Force Falcons",
+          "teamId": "2005"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Utah State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+          "teamName": "Utah State Aggies",
+          "teamId": "328"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Georgia State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+          "teamName": "Georgia State Panthers",
+          "teamId": "2247"
+        }
+      ]
+    },
+    {
+      "name": "Katie",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Pittsburgh",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+          "teamName": "Pittsburgh Panthers",
+          "teamId": "221"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Kennesaw St",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+          "teamName": "Kennesaw State Owls",
+          "teamId": "338"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Air Force",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+          "teamName": "Air Force Falcons",
+          "teamId": "2005"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Lucy",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Virginia",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+          "teamName": "Virginia Cavaliers",
+          "teamId": "258"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+          "teamName": "Michigan Wolverines",
+          "teamId": "130"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "New Mexico",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+          "teamName": "New Mexico Lobos",
+          "teamId": "167"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Troy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+          "teamName": "Troy Trojans",
+          "teamId": "2653"
+        }
+      ]
+    },
+    {
+      "name": "Molly",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "SMU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+          "teamName": "SMU Mustangs",
+          "teamId": "2567"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Indiana",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+          "teamName": "Indiana Hoosiers",
+          "teamId": "84"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "No. Dakota State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+          "teamName": "North Dakota State Bison",
+          "teamId": "2449"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Utah State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+          "teamName": "Utah State Aggies",
+          "teamId": "328"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Southern Miss",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+          "teamName": "Southern Miss Golden Eagles",
+          "teamId": "2572"
+        }
+      ]
+    },
+    {
+      "name": "Tim",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "No. Dakota State",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+          "teamName": "North Dakota State Bison",
+          "teamId": "2449"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Texas",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+          "teamName": "Texas Longhorns",
+          "teamId": "251"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Jake",
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "games": 2,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "New Mexico St",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+          "teamName": "New Mexico State Aggies",
+          "teamId": "166"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Buffalo",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+          "teamName": "Buffalo Bulls",
+          "teamId": "2084"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "New Mexico",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+          "teamName": "New Mexico Lobos",
+          "teamId": "167"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Utah State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+          "teamName": "Utah State Aggies",
+          "teamId": "328"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Texas",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+          "teamName": "Texas Longhorns",
+          "teamId": "251"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Coastal Carolina",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+          "teamName": "Coastal Carolina Chanticleers",
+          "teamId": "324"
+        }
+      ]
+    },
+    {
+      "name": "Susie",
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "games": 2,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Memphis",
+          "wins": 1,
+          "summary": "1-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+          "teamName": "Memphis Tigers",
+          "teamId": "235"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Clemson",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+          "teamName": "Clemson Tigers",
+          "teamId": "228"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Kansas State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+          "teamName": "Kansas State Wildcats",
+          "teamId": "2306"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Jacksonville St",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+          "teamName": "Jacksonville State Gamecocks",
+          "teamId": "55"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Northern Illinois",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+          "teamName": "Northern Illinois Huskies",
+          "teamId": "2459"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "App State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+          "teamName": "App State Mountaineers",
+          "teamId": "2026"
+        }
+      ]
+    },
+    {
+      "name": "Julie",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "games": 3,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Georgia Tech",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+          "teamName": "Georgia Tech Yellow Jackets",
+          "teamId": "59"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Missouri State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+          "teamName": "Missouri State Bears",
+          "teamId": "2623"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Ohio",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+          "teamName": "Ohio Bobcats",
+          "teamId": "195"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "San Jos\u00e9 State",
+          "wins": 1,
+          "summary": "1-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+          "teamName": "San Jos\u00e9 State Spartans",
+          "teamId": "23"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Benjamin",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Indiana",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+          "teamName": "Indiana Hoosiers",
+          "teamId": "84"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "West Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+          "teamName": "Western Michigan Broncos",
+          "teamId": "2711"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "New Mexico",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+          "teamName": "New Mexico Lobos",
+          "teamId": "167"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Marshall",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+          "teamName": "Marshall Thundering Herd",
+          "teamId": "276"
+        }
+      ]
+    },
+    {
+      "name": "Jared",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "SMU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+          "teamName": "SMU Mustangs",
+          "teamId": "2567"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "New Mexico",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+          "teamName": "New Mexico Lobos",
+          "teamId": "167"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Lori",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Boston College",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+          "teamName": "Boston College Eagles",
+          "teamId": "103"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+          "teamName": "Michigan Wolverines",
+          "teamId": "130"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Bowling Green",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+          "teamName": "Bowling Green Falcons",
+          "teamId": "189"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Air Force",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+          "teamName": "Air Force Falcons",
+          "teamId": "2005"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Southern Miss",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+          "teamName": "Southern Miss Golden Eagles",
+          "teamId": "2572"
+        }
+      ]
+    },
+    {
+      "name": "Sarah",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "games": 0,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+          "teamName": "Michigan Wolverines",
+          "teamId": "130"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "West Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+          "teamName": "Western Michigan Broncos",
+          "teamId": "2711"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "New Mexico",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+          "teamName": "New Mexico Lobos",
+          "teamId": "167"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Abby",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "South Florida",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+          "teamName": "South Florida Bulls",
+          "teamId": "58"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Ole Miss",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+          "teamName": "Ole Miss Rebels",
+          "teamId": "145"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Adam",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "West. Kentucky",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+          "teamName": "Western Kentucky Hilltoppers",
+          "teamId": "98"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Hawaii",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+          "teamName": "Hawai'i Rainbow Warriors",
+          "teamId": "62"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Emily",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "West Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+          "teamName": "Western Michigan Broncos",
+          "teamId": "2711"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Hawaii",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+          "teamName": "Hawai'i Rainbow Warriors",
+          "teamId": "62"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Fresno State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+          "teamName": "Fresno State Bulldogs",
+          "teamId": "278"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Gracie",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Utah State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+          "teamName": "Utah State Aggies",
+          "teamId": "328"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Lindsey",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Oregon",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+          "teamName": "Oregon Ducks",
+          "teamId": "2483"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Texas",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+          "teamName": "Texas Longhorns",
+          "teamId": "251"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Ryan",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Navy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+          "teamName": "Navy Midshipmen",
+          "teamId": "2426"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Liberty",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+          "teamName": "Liberty Flames",
+          "teamId": "2335"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "Hawaii",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+          "teamName": "Hawai'i Rainbow Warriors",
+          "teamId": "62"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Troy",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+          "teamName": "Troy Trojans",
+          "teamId": "2653"
+        }
+      ]
+    },
+    {
+      "name": "Tommy",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "games": 1,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Tulane",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+          "teamName": "Tulane Green Wave",
+          "teamId": "2655"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Missouri State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+          "teamName": "Missouri State Bears",
+          "teamId": "2623"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Texas A&M",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+          "teamName": "Texas A&M Aggies",
+          "teamId": "245"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    },
+    {
+      "name": "Cam",
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "games": 2,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "South Florida",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+          "teamName": "South Florida Bulls",
+          "teamId": "58"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Miami",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "teamName": "Miami Hurricanes",
+          "teamId": "2390"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "Texas Tech",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+          "teamName": "Texas Tech Red Raiders",
+          "teamId": "2641"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Ohio State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+          "teamName": "Ohio State Buckeyes",
+          "teamId": "194"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "Jacksonville St",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+          "teamName": "Jacksonville State Gamecocks",
+          "teamId": "55"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Miami (OH)",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+          "teamName": "Miami (OH) RedHawks",
+          "teamId": "193"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "Boise State",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+          "teamName": "Boise State Broncos",
+          "teamId": "68"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Texas",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+          "teamName": "Texas Longhorns",
+          "teamId": "251"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "Old Dominion",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+          "teamName": "Old Dominion Monarchs",
+          "teamId": "295"
+        }
+      ]
+    },
+    {
+      "name": "Meg",
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "games": 2,
+      "picks": [
+        {
+          "conf": "AAC",
+          "confLabel": "American",
+          "label": "Army",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "teamName": "Army Black Knights",
+          "teamId": "349"
+        },
+        {
+          "conf": "ACC",
+          "confLabel": "ACC",
+          "label": "Louisville",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+          "teamName": "Louisville Cardinals",
+          "teamId": "97"
+        },
+        {
+          "conf": "Big 12",
+          "confLabel": "Big 12",
+          "label": "BYU",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+          "teamName": "BYU Cougars",
+          "teamId": "252"
+        },
+        {
+          "conf": "Big 10",
+          "confLabel": "Big Ten",
+          "label": "Michigan",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+          "teamName": "Michigan Wolverines",
+          "teamId": "130"
+        },
+        {
+          "conf": "USA",
+          "confLabel": "Conference USA",
+          "label": "New Mexico St",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+          "teamName": "New Mexico State Aggies",
+          "teamId": "166"
+        },
+        {
+          "conf": "MAC",
+          "confLabel": "MAC",
+          "label": "Toledo",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+          "teamName": "Toledo Rockets",
+          "teamId": "2649"
+        },
+        {
+          "conf": "MW",
+          "confLabel": "Mountain West",
+          "label": "UNLV",
+          "wins": 0,
+          "summary": "0-1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+          "teamName": "UNLV Rebels",
+          "teamId": "2439"
+        },
+        {
+          "conf": "Pac 12",
+          "confLabel": "Pac-12",
+          "label": "San Diego St",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+          "teamName": "San Diego State Aztecs",
+          "teamId": "21"
+        },
+        {
+          "conf": "SEC",
+          "confLabel": "SEC",
+          "label": "Georgia",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+          "teamName": "Georgia Bulldogs",
+          "teamId": "61"
+        },
+        {
+          "conf": "SBC",
+          "confLabel": "Sun Belt",
+          "label": "James Madison",
+          "wins": 0,
+          "summary": "0-0",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+          "teamName": "James Madison Dukes",
+          "teamId": "256"
+        }
+      ]
+    }
+  ],
+  "ranks": {
+    "Becca": 1,
+    "Lauren": 2,
+    "Natalie": 3,
+    "Gail": 4,
+    "Stevie": 5,
+    "Bruce": 6,
+    "Emma": 7,
+    "Kate": 8,
+    "Katie": 9,
+    "Lucy": 10,
+    "Molly": 11,
+    "Tim": 12,
+    "Jake": 13,
+    "Susie": 14,
+    "Julie": 15,
+    "Benjamin": 16,
+    "Jared": 17,
+    "Lori": 18,
+    "Sarah": 19,
+    "Abby": 20,
+    "Adam": 21,
+    "Emily": 22,
+    "Gracie": 23,
+    "Lindsey": 24,
+    "Ryan": 25,
+    "Tommy": 26,
+    "Cam": 27,
+    "Meg": 28
+  },
+  "weeks": [
+    {
+      "date": "2026-08-29",
+      "wins": {
+        "Becca": 3,
+        "Lauren": 3,
+        "Natalie": 2,
+        "Gail": 2,
+        "Stevie": 2,
+        "Bruce": 1,
+        "Emma": 1,
+        "Kate": 1,
+        "Katie": 1,
+        "Lucy": 1,
+        "Molly": 1,
+        "Tim": 1,
+        "Jake": 1,
+        "Susie": 1,
+        "Julie": 1,
+        "Benjamin": 0,
+        "Jared": 0,
+        "Lori": 0,
+        "Sarah": 0,
+        "Abby": 0,
+        "Adam": 0,
+        "Emily": 0,
+        "Gracie": 0,
+        "Lindsey": 0,
+        "Ryan": 0,
+        "Tommy": 0,
+        "Cam": 0,
+        "Meg": 0
+      }
+    }
+  ],
+  "failures": []
+}

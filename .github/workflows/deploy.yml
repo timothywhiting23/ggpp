@@ -1,0 +1,66 @@
+name: Update scores and deploy
+
+# Runs hourly on Saturdays (and early Sunday = Saturday night, Mountain Time),
+# on every push to main, and manually. A step inside gates the refresh to
+# Saturday 10:00-23:59 Mountain Time so scores update live on game days only.
+
+on:
+  schedule:
+    - cron: '0 * * * 6'     # every hour, Saturday (UTC)
+    - cron: '0 0-8 * * 0'   # Saturday night Mountain (= Sun 00-08 UTC)
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Gate refresh to Saturday game window
+        id: window
+        run: |
+          RUN_TYPE="${{ github.event_name }}"
+          MT=$(TZ=America/Denver date +'%u %H')
+          day=${MT%% *}; hour=${MT##* }
+          skip=false
+          # Manual runs and pushes always deploy
+          if [ "$RUN_TYPE" = "push" ] || [ "$RUN_TYPE" = "workflow_dispatch" ]; then
+            echo "Manual/push run — deploying."
+          elif [ "$day" != "6" ]; then
+            echo "Not Saturday — skipping refresh."
+            skip=true
+          elif [ "$hour" -lt 10 ] || [ "$hour" -gt 23 ]; then
+            echo "Outside 10am-11pm Mountain window — skipping refresh."
+            skip=true
+          else
+            echo "Within Saturday game window — refreshing."
+          fi
+          echo "skipped=$skip" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh scores from ESPN (only in-game window)
+        if: steps.window.outputs.skipped != 'true'
+        run: python3 fetch_scores.py --out data.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
