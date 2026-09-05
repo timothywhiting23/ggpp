@@ -56,6 +56,13 @@ def load_previous():
         return {}
 
 
+def mt_strftime(fmt):
+    """Format the current time in America/Denver (Mountain) timezone."""
+    out = subprocess.run(["bash", "-c", "TZ=America/Denver date +'%s'" % (fmt,)],
+                         capture_output=True, text=True).stdout.strip()
+    return out or fmt
+
+
 def fetch_json(url, timeout=30):
     # ESPN allows plain curl's default UA; custom browser UAs get 403'd.
     cmd = ["curl", "-s", "--max-time", str(timeout), url]
@@ -191,8 +198,8 @@ def main():
 
     data = {
         "title": "Grandma Gail's Pigskin Picks 2026",
-        "updated": time.strftime("%B %d, %Y at %I:%M %p"),
-        "updated_iso": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "updated": mt_strftime("%B %d, %Y at %I:%M %p %Z"),
+        "updated_iso": mt_strftime("%Y-%m-%dT%H:%M:%S"),
         "conferences": [{"key": c, "label": CONF_LABEL[c]} for c in CONFS],
         "teams": teams_info,
         "standings": standings,
