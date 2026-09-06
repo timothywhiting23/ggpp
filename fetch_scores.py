@@ -26,7 +26,7 @@ ESPN_TEAM = "https://site.api.espn.com/apis/site/v2/sports/football/college-foot
 CONFS = ["AAC", "ACC", "Big 12", "Big 10", "USA", "MAC", "MW", "Pac 12", "SEC", "SBC"]
 CONF_LABEL = {  # friendly names for display
     "AAC": "American", "ACC": "ACC", "Big 12": "Big 12", "Big 10": "Big Ten",
-    "USA": "CUSA", "MAC": "MAC", "MW": "MW",
+    "USA": "Conference USA", "MAC": "MAC", "MW": "Mountain West",
     "Pac 12": "Pac-12", "SEC": "SEC", "SBC": "Sun Belt",
 }
 
@@ -95,6 +95,46 @@ def get_record(team_id):
         "games": int(stats.get("gamesPlayed") or 0),
         "summary": total.get("summary", f"{int(stats.get('wins') or 0)}-{int(stats.get('losses') or 0)}"),
     }
+
+
+def team_week_wins_from_schedule(tid):
+    """Wins per ESPN week for one team, from its schedule endpoint."""
+    out = {}
+    url = f"https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{tid}/schedule"
+    d = fetch_json(url)
+    if not d:
+        return out
+    for e in d.get("events") or []:
+        w = (e.get("week") or {}).get("number")
+        if not w:
+            continue
+        comp = (e.get("competitions") or [{}])[0]
+        for c in comp.get("competitors", []):
+            if str((c.get("team") or {}).get("id")) == str(tid) and c.get("winner") is True:
+                out[w] = out.get(w, 0) + 1
+    return out
+
+
+def weekly_wins_for_picked(teammap, picks):
+    """Return (week_meta, team_week_wins).
+
+    Uses each picked team's ESPN schedule (which carries official week
+    numbers). week_meta labels the first week with wins as 'Week 0'.
+    """
+    pick_ids = {teammap[lbl]["id"] for p in picks for lbl in p["picks"].values() if lbl}
+    team_week_wins = {}
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        futs = {ex.submit(team_week_wins_from_schedule, tid): tid for tid in pick_ids}
+        for f in as_completed(futs):
+            tid = futs[f]
+            try:
+                team_week_wins[tid] = f.result()
+            except Exception:
+                team_week_wins[tid] = {}
+    weeks_seen = sorted({w for tw in team_week_wins.values() for w in tw})
+    week_meta = [{"espnWeek": w, "label": f"Week {i}", "labelNum": i}
+                 for i, w in enumerate(weeks_seen)]
+    return week_meta, team_week_wins
 
 
 def main():
@@ -180,6 +220,23 @@ def main():
     for i, s in enumerate(standings, 1):
         rank_of[s["name"]] = i
 
+    # ---- per-week wins (ESPN weeks, first week labelled 'Week 0') ----
+    week_meta, team_week_wins = weekly_wins_for_picked(teammap, picks)
+    pickmap = {p["name"]: p for p in picks}
+    week_series = []
+    for s in standings:
+        p = pickmap[s["name"]]
+        weeks = [0] * len(week_meta)
+        for lbl in p["picks"].values():
+            if not lbl:
+                continue
+            tid = teammap[lbl]["id"]
+            tw = team_week_wins.get(tid, {})
+            for i, wm in enumerate(week_meta):
+                weeks[i] += tw.get(wm["espnWeek"], 0)
+        week_series.append({"name": s["name"], "total": sum(weeks), "weeks": weeks})
+    week_series.sort(key=lambda x: (-x["total"], x["name"]))
+
     out_dir = os.path.dirname(args.out)
     if out_dir:
         os.makedirs(out_dir, exist_ok=True)
@@ -205,6 +262,8 @@ def main():
         "standings": standings,
         "ranks": rank_of,
         "weeks": weeks,
+        "weekMeta": week_meta,
+        "weekSeries": week_series,
         "failures": failures,
     }
     with open(args.out, "w") as f:

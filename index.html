@@ -14,7 +14,7 @@
 <header class="hero">
   <img src="./ggpp-logo.png" class="logo" alt="Grandma Gail's Pigskin Picks" width="380" height="371">
   <div class="hero-meta">
-    <p class="season">2026 Season &bull; 28 family players &bull; 1 pick per conference</p>
+    <p class="season">2026 Season &bull; 29 family players &bull; 1 pick per conference</p>
     <div class="prizes">
       <div class="prize-line">Winner's Bonus 🏆 : <span class="dot">·</span> $200 <span class="dot">·</span> $150 <span class="dot">·</span> $100 <span class="dot">·</span> $50 <span class="dot">·</span> $25</div>
       <div class="prize-line grandmas">Grandma’s Bonus 🏫 : $100 worst <span class="dot">·</span> $50 2nd-worst</div>
@@ -24,7 +24,21 @@
 </header>
 
 <main class="wrap">
+  <div class="tabs" role="tablist">
+    <button class="tab active" id="tabBoard" data-target="board" role="tab">🏈 Standings</button>
+    <button class="tab" id="tabWeekly" data-target="weekly" role="tab">📅 Wins by Week</button>
+  </div>
+
   <section class="leaderboard" id="board" aria-label="Standings"></section>
+
+  <section class="weekly" id="weekly" aria-label="Wins by week" hidden>
+    <h2 class="section-title">Wins by Week</h2>
+    <p class="section-sub">Each player's total wins per ESPN week &mdash; sorted by most total wins. The first week of the season is shown as <b>Week 0</b>.</p>
+    <div class="chart-card">
+      <div id="weeklyChart" role="img" aria-label="Horizontal bar chart of wins per player per week"></div>
+      <div id="weeklyLegend" class="legend"></div>
+    </div>
+  </section>
 </main>
 
 <footer class="foot">

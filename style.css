@@ -66,6 +66,34 @@ body{
 /* ---------- Layout ---------- */
 .wrap{max-width:1000px;margin:0 auto;padding:6px 16px 10px}
 
+/* ---------- Tabs ---------- */
+.tabs{display:flex;justify-content:center;gap:10px;margin:22px 0 10px;flex-wrap:wrap}
+.tab{
+  font-family:'Oswald','Inter',sans-serif;font-size:15px;font-weight:600;letter-spacing:.4px;
+  color:var(--brown);background:var(--white);border:1.5px solid var(--tan);
+  border-radius:999px;padding:9px 22px;cursor:pointer;transition:all .15s;
+}
+.tab:hover{border-color:var(--maroon);color:var(--maroon)}
+.tab.active{background:var(--maroon);border-color:var(--maroon);color:#fff;box-shadow:0 6px 16px rgba(100,1,17,.28)}
+
+/* ---------- Weekly tab ---------- */
+.weekly{margin-top:8px}
+.section-title{
+  font-family:'Playfair Display',serif;
+  font-weight:900;font-size:clamp(26px,5vw,38px);
+  color:var(--maroon);text-align:center;margin:10px 0 4px;
+}
+.section-sub{text-align:center;color:var(--ink-mute);font-size:14.5px;margin:0 0 20px}
+.section-sub b{color:var(--maroon)}
+.chart-card{
+  background:linear-gradient(180deg,var(--white),#fdf9ef);
+  border:1px solid var(--maroon-line);
+  border-radius:18px;padding:18px;box-shadow:var(--shadow);
+}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;margin-top:14px}
+.legend .item{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink);font-weight:600}
+.legend .item .dot{width:11px;height:11px;border-radius:3px;flex:0 0 11px}
+
 /* ---------- Leaderboard cards ---------- */
 .card{
   background:linear-gradient(180deg,var(--white),#fdf9ef);
