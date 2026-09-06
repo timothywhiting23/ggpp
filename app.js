@@ -36,7 +36,7 @@ function playerCard(p, rank, total, expanded){
   const prize=prizeFor(rank,total);
   const recWins=p.picks.filter(x=>x.wins>0).length;
   const sub=recWins>0?`${recWins} of 10 teams have a win`+(expanded?"":" · tap for picks"):(expanded?"":"tap for picks");
-  return `<article class="card ${isPrize?"prize":""} ${isDud?"dud":""} ${expanded?"open":""}>
+  return `<article class="card ${isPrize?"prize":""} ${isDud?"dud":""} ${expanded?"open":""}">
     <div class="card-top">
       <div class="rank ${"r"+(rank<=3?rank:"x")}">${medal(rank)}${rank}</div>
       <div class="name"><h3>${p.name}</h3><div class="sub">${sub}</div>
@@ -81,6 +81,7 @@ function renderWeekly(data){
   const innerTop=TOP, innerBottom=TOP+series.length*rowStep;
 
   let s=`<line x1="${NAME_W}" y1="${innerTop}" x2="${NAME_W}" y2="${innerBottom}" stroke="#640111" stroke-width="1.2"/>`;
+  // x gridlines + labels (wins)
   for(let v=0;v<=maxW;v++){
     const x=NAME_W+v/maxW*plotW;
     s+=`<line x1="${x}" y1="${innerTop}" x2="${x}" y2="${innerBottom}" stroke="rgba(100,1,17,.10)" stroke-width="1"/>`;
