@@ -1,16 +1,12 @@
 name: Update scores and deploy
 
-# Runs hourly on Saturdays (and early Sunday = Saturday night, Mountain Time),
-# on every push to main, and manually. A step inside gates the work to
-# Saturday 10:00-23:59 Mountain Time. IMPORTANT: when a scheduled run is
-# outside the window it exits WITHOUT deploying, so the last good live
-# version stays untouched (deploying the committed data.json snapshot there
-# previously rolled the site back).
+# Runs hourly on Saturdays and Sunday morning Mountain Time, on every push to main, and manually. A step inside gates the refresh so late Saturday games are included before the weekly email.
 
 on:
   schedule:
     - cron: '0 * * * 6'     # every hour, Saturday (UTC)
     - cron: '0 0-8 * * 0'   # Saturday night Mountain (= Sun 00-08 UTC)
+    - cron: '0 9-11 * * 0'  # Sunday morning Mountain: late games can finish after 11pm MT
   push:
     branches: [ main ]
   workflow_dispatch:
@@ -31,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Gate refresh to Saturday game window
+      - name: Gate refresh to game window
         id: window
         run: |
           RUN_TYPE="${{ github.event_name }}"
@@ -40,18 +36,18 @@ jobs:
           skip=false
           if [ "$RUN_TYPE" = "push" ] || [ "$RUN_TYPE" = "workflow_dispatch" ]; then
             echo "Manual/push run — deploying."
-          elif [ "$day" != "6" ]; then
-            echo "Not Saturday — skipping this scheduled run (no deploy)."
+          elif [ "$day" = "6" ] && { [ "$hour" -lt 10 ] || [ "$hour" -gt 23 ]; }; then
+            echo "Outside Saturday 10am-11pm Mountain window — skipping this scheduled run (no deploy)."
             skip=true
-          elif [ "$hour" -lt 10 ] || [ "$hour" -gt 23 ]; then
-            echo "Outside 10am-11pm Mountain window — skipping this scheduled run (no deploy)."
+          elif [ "$day" != "6" ] && { [ "$day" != "7" ] || [ "$hour" -gt 11 ]; }; then
+            echo "Outside Sunday midnight-noon Mountain catch-up window — skipping this scheduled run (no deploy)."
             skip=true
           else
-            echo "Within Saturday game window — refreshing."
+            echo "Within refresh window — refreshing."
           fi
           echo "skipped=$skip" >> "$GITHUB_OUTPUT"
 
-      - name: Refresh scores from ESPN (only in-game window)
+      - name: Refresh scores from ESPN
         if: steps.window.outputs.skipped != 'true'
         run: python3 fetch_scores.py --out data.json
 
