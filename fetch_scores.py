@@ -29,6 +29,13 @@ CONF_LABEL = {  # friendly names for display
     "USA": "Conference USA", "MAC": "MAC", "MW": "Mountain West",
     "Pac 12": "Pac-12", "SEC": "SEC", "SBC": "Sun Belt",
 }
+# ESPN standings group ids for the ten pool conferences. The pool's rule is
+# "one team from each conference, any team" - so the ceiling is measured over the
+# whole conference, not just the teams somebody happened to pick.
+CONF_GROUP = {"AAC": 151, "ACC": 1, "Big 12": 4, "Big 10": 5, "USA": 12,
+              "MAC": 15, "MW": 17, "Pac 12": 9, "SEC": 8, "SBC": 37}
+STANDINGS_URL = ("https://site.api.espn.com/apis/v2/sports/football/"
+                 "college-football/standings?group={g}")
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
@@ -135,6 +142,71 @@ def weekly_wins_for_picked(teammap, picks):
     week_meta = [{"espnWeek": w, "label": f"Week {i}", "labelNum": i}
                  for i, w in enumerate(weeks_seen)]
     return week_meta, team_week_wins
+
+
+def _overall_wins(entry):
+    """Overall wins from a standings entry.
+
+    ESPN repeats a 'wins' stat once per split (overall, home, away, division,
+    conference, ranked...). The FIRST one is the overall block - verified against
+    the team endpoint's record (e.g. Michigan 4 wins = 4-3, UCLA 7 = 7-0).
+    """
+    for s in entry.get("stats") or []:
+        if s.get("name") == "wins":
+            try:
+                return int(s.get("value") or 0)
+            except (TypeError, ValueError):
+                return None
+    return None
+
+
+def best_in_conference(conf):
+    """Best overall record in a whole conference, or None if ESPN gives nothing."""
+    d = fetch_json(STANDINGS_URL.format(g=CONF_GROUP[conf]))
+    if not d:
+        return None
+    best, leaders = -1, []
+    # A divisional conference (Sun Belt) comes back as children; a single-table
+    # conference comes back at the top level with no children at all.
+    for child in (d.get("children") or [d]):
+        for e in (child.get("standings") or {}).get("entries") or []:
+            w = _overall_wins(e)
+            if w is None:
+                continue
+            team = e.get("team") or {}
+            tid = str(team.get("id") or "")
+            name = team.get("shortDisplayName") or team.get("displayName") or ""
+            if w > best:
+                best, leaders = w, [{"id": tid, "name": name, "full": team.get("displayName") or name}]
+            elif w == best:
+                leaders.append({"id": tid, "name": name, "full": team.get("displayName") or name})
+    if best < 0:
+        return None
+    leaders.sort(key=lambda t: t["full"])
+    return {"wins": best, "teams": leaders}
+
+
+def perfect_ceiling():
+    """Sum of the best record in each conference = the most wins anyone could hold now."""
+    rows = []
+    for conf in CONFS:
+        got = best_in_conference(conf)
+        if not got:
+            rows.append({"conf": conf, "label": CONF_LABEL[conf], "wins": None,
+                         "teamName": "", "teamId": "", "teamCount": 0, "logo": "",
+                         "alsoTied": []})
+            continue
+        top = got["teams"][0]
+        rows.append({
+            "conf": conf, "label": CONF_LABEL[conf], "wins": got["wins"],
+            "teamName": top["name"], "teamFull": top["full"], "teamId": top["id"],
+            "teamCount": len(got["teams"]),
+            "alsoTied": [t["name"] for t in got["teams"][1:]],
+            "logo": f"https://a.espncdn.com/i/teamlogos/ncaa/500/{top['id']}.png" if top["id"] else "",
+        })
+    return {"total": sum(r["wins"] for r in rows if r["wins"] is not None),
+            "rows": rows,
+            "missing": [r["conf"] for r in rows if r["wins"] is None]}
 
 
 def main():
@@ -253,6 +325,10 @@ def main():
     for s in standings:
         cur["wins"][s["name"]] = s["wins"]
 
+    # ---- perfect-pick ceiling: best team in each conference, summed ----
+    ceiling = perfect_ceiling()
+    ceiling["leader_now"] = standings[0]["wins"] if standings else 0
+
     data = {
         "title": "Grandma Gail's Pigskin Picks 2026",
         "updated": mt_strftime("%B %d, %Y at %I:%M %p %Z"),
@@ -264,6 +340,7 @@ def main():
         "weeks": weeks,
         "weekMeta": week_meta,
         "weekSeries": week_series,
+        "ceiling": ceiling,
         "failures": failures,
     }
     with open(args.out, "w") as f:
@@ -275,6 +352,12 @@ def main():
         print(f"  {rank_of[s['name']]:>2}. {s['name']:<12} {s['wins']} wins")
     if failures:
         print("Note: failed teams left blank (wins shown as 0/n/a).")
+    print(f"CEILING: {ceiling['total']} wins (leader now {ceiling['leader_now']})")
+    for r in ceiling["rows"]:
+        print(f"  {r['label']:<15} {str(r['wins']):>3}  {r['teamName']}"
+              + (f" (+{r['teamCount']-1} tied)" if r.get("teamCount", 0) > 1 else ""))
+    if ceiling["missing"]:
+        print(f"  missing conferences: {ceiling['missing']}")
 
 
 if __name__ == "__main__":
