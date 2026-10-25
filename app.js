@@ -107,6 +107,42 @@ function renderWeekly(data){
   ).join("");
 }
 
+/* ---------------- Perfect-pick ceiling ---------------- */
+function renderCeiling(data){
+  const el=document.getElementById("ceiling");
+  if(!el) return;
+  const c=data.ceiling;
+  if(!c || !c.rows || !c.rows.length){ el.hidden=true; return; }   /* older data.json */
+  el.hidden=false;
+  const leader=c.leader_now||0;
+  const behind=Math.max(0,c.total-leader);
+  const missing=(c.missing||[]).length;
+  const rows=c.rows.map(r=>{
+    const tied=(r.alsoTied&&r.alsoTied.length)
+      ? `<small>also ${r.wins} ${r.wins===1?"win":"wins"}: ${r.alsoTied.join(", ")}</small>` : "";
+    return `<div class="ceil-row">
+      <div class="cnf">${r.label}</div>
+      ${r.logo?`<img src="${r.logo}" alt="" loading="lazy">`:`<div class="noimg"></div>`}
+      <div class="tm">${r.teamName||"\u2014"}${tied}</div>
+      <div class="w">${r.wins==null?"\u2014":r.wins}</div></div>`;
+  }).join("");
+  el.innerHTML=`
+    <h2 class="section-title">Perfect-Pick Ceiling</h2>
+    <p class="section-sub">The most wins anyone could be sitting on right now &mdash; the best team in each of the ten conferences.</p>
+    <div class="chart-card ceiling-card">
+      <div class="ceil-top">
+        <div class="ceil-num">${c.total}<span>wins</span></div>
+        <div class="ceil-copy">
+          <p>A perfect entry &mdash; the team with the most wins in every conference &mdash; would have <b>${c.total}</b> wins today.${
+            leader?` The current leader has <b>${leader}</b>${behind>0?`, so <b>${behind}</b> more ${behind===1?"win is":"wins are"} still out there`:""}.`:""}</p>
+          ${missing?`<p class="ceil-warn">${missing} conference${missing>1?"s":""} could not be read from ESPN at this refresh, so ${missing>1?"those are":"that is"} not counted above.</p>`:""}
+          <p class="ceil-note">One team per conference, so a tie for the best record still counts once &mdash; the figure is the best record, whichever team owns it.</p>
+        </div>
+      </div>
+      <div class="ceil-grid">${rows}</div>
+    </div>`;
+}
+
 /* ---------------- Tabs ---------------- */
 function wireTabs(){
   document.querySelectorAll(".tab").forEach(btn=>{
@@ -127,6 +163,7 @@ function render(data){
   document.getElementById("confList").textContent="Conferences: "+data.conferences.map(c=>c.label).join(" · ");
   renderBoard(data);
   renderWeekly(data);
+  renderCeiling(data);
 }
 function load(){
   fetch("./data.json",{cache:"no-store"})

@@ -165,3 +165,26 @@ body{
 
 .missing{text-align:center;padding:70px 20px;color:var(--ink-mute)}
 .missing h2{color:var(--maroon);font-family:'Playfair Display',serif}
+
+/* ---------- Perfect-pick ceiling ---------- */
+.ceiling-sec{margin-top:46px}
+.ceiling-card{padding:20px}
+.ceil-top{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding-bottom:16px;margin-bottom:10px;border-bottom:1px solid var(--maroon-line)}
+.ceil-num{font-family:'Oswald',sans-serif;font-size:clamp(52px,9vw,78px);line-height:.88;color:var(--maroon);font-weight:700;letter-spacing:-1px}
+.ceil-num span{display:block;font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--ink-mute);font-weight:800;margin-top:6px}
+.ceil-copy{flex:1 1 320px;min-width:230px}
+.ceil-copy p{margin:0 0 7px;font-size:14.5px;line-height:1.55;color:var(--brown)}
+.ceil-copy p:last-child{margin-bottom:0}
+.ceil-copy b{color:var(--maroon)}
+.ceil-note{color:var(--ink-mute)!important;font-size:12.5px!important;line-height:1.5!important}
+.ceil-warn{color:var(--maroon)!important;font-size:12.5px!important}
+.ceil-grid{display:grid;grid-template-columns:1fr;gap:0 34px}
+@media(min-width:760px){.ceil-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ceil-row{display:flex;align-items:center;gap:9px;padding:9px 2px;min-height:54px;border-bottom:1px solid rgba(100,1,17,.07)}
+.ceil-row img,.ceil-row .noimg{width:28px;height:28px;flex:0 0 28px;object-fit:contain;border-radius:5px;background:#fff;border:1px solid #eee;padding:2px}
+.ceil-row .noimg{border-color:transparent;background:transparent}
+.ceil-row .cnf{min-width:96px;color:var(--brown);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.3px;line-height:1.25}
+.ceil-row .tm{flex:1 1 auto;min-width:0;font-weight:700;font-size:14.5px;color:var(--ink)}
+.ceil-row .tm small{display:block;font-weight:500;font-style:italic;color:var(--ink-mute);font-size:11.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ceil-row .w{font-family:'Oswald',sans-serif;font-size:19px;font-weight:700;color:var(--maroon);min-width:22px;text-align:right}
+@media(max-width:640px){.ceil-row .cnf{min-width:66px;font-size:10px}.ceil-row .w{font-size:17px}}
