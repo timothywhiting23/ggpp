@@ -20,7 +20,36 @@ function prizeFor(rank, total){
 function weekColor(i){ return WEEK_PALETTE[i % WEEK_PALETTE.length]; }
 
 /* ---------------- Leaderboard ---------------- */
-function pickRow(p){
+/* A pick is the "top pick" when it holds the best record available in its
+   conference. Ties count: if three teams share a conference's best record,
+   every one of them has maxed out that pick. Read from the ceiling block that
+   the score fetcher already publishes, so no extra data is needed.
+   The star always occupies a fixed-width slot (transparent when the pick is
+   not a top pick) so record columns stay aligned. */
+function ceilingByConf(data){
+  const m = {};
+  const rows = (data.ceiling && data.ceiling.rows) || [];
+  rows.forEach(r => { if (r.wins != null) m[r.conf] = r; });
+  return m;
+}
+
+function isTopPick(p, tops){
+  const r = tops[p.conf];
+  if (!r) return false;
+  if (r.teamIds && r.teamIds.length) return r.teamIds.map(String).indexOf(String(p.teamId)) >= 0;
+  return p.top === true || p.wins === r.wins;
+}
+
+const STAR_STYLE = "display:inline-block;width:10px;text-align:left;font-weight:800;font-size:14px;line-height:1;vertical-align:super";
+
+function starFor(p, tops){
+  const on = isTopPick(p, tops);
+  const style = STAR_STYLE + ";color:" + (on ? "#640111" : "transparent");
+  const attr = on ? ` title="Best record available in this conference — this pick has maxed out its points"` : ` aria-hidden="true"`;
+  return `<span style="${style}"${attr}>*</span>`;
+}
+
+function pickRow(p, tops){
   const m = (p.summary||"").split("-").map(Number);
   const has = p.summary && p.summary!=="n/a" && !isNaN(m[0]) && !isNaN(m[1]);
   const cls = has ? (m[0]>m[1]?"pwin": m[0]<m[1]?"ploss":"ptie") : "";
@@ -28,10 +57,10 @@ function pickRow(p){
   return `<div class="pick">${p.logo?`<img src="${p.logo}" alt="" loading="lazy">`:`<div></div>`}
     <div class="cnf">${p.confLabel}</div>
     <div class="tm">${p.label}<small>${p.teamName}</small></div>
-    <div class="${cls}">${rec}</div></div>`;
+    <div class="${cls}">${rec}${starFor(p,tops)}</div></div>`;
 }
 
-function playerCard(p, rank, total, expanded){
+function playerCard(p, rank, total, expanded, tops){
   const isPrize=rank<=5, isDud=rank>=total-1;
   const prize=prizeFor(rank,total);
   const recWins=p.picks.filter(x=>x.wins>0).length;
@@ -44,20 +73,26 @@ function playerCard(p, rank, total, expanded){
       <div class="score"><div class="wins">${p.wins}<span class="loss">-${p.losses}</span></div><div class="lbl">record</div></div>
       <div class="rec">${p.games||0} gp</div>
       <div class="chev">▾</div></div>
-    <div class="picks">${p.picks.map(pickRow).join("")}</div></article>`;
+    <div class="picks">${p.picks.map(k=>pickRow(k,tops)).join("")}</div></article>`;
 }
 
 function renderBoard(data){
   const total=data.standings.length;
   const board=document.getElementById("board");
+  const tops=ceilingByConf(data);
   board.innerHTML="";
   data.standings.forEach((p,i)=>{
     const el=document.createElement("div");
-    el.innerHTML=playerCard(p,i+1,total,false);
+    el.innerHTML=playerCard(p,i+1,total,false,tops);
     const art=el.firstElementChild;
     art.querySelector(".card-top").addEventListener("click",()=>art.classList.toggle("open"));
     board.appendChild(art);
   });
+  if(data.standings.some(p=>p.picks.some(k=>isTopPick(k,tops)))){
+    board.insertAdjacentHTML("beforeend",
+      `<p style="text-align:center;color:#7a6258;font-size:12.5px;font-weight:600;margin:14px 8px 4px">`+
+      `<span style="${STAR_STYLE};color:#640111">*</span> = best record available in that conference &mdash; that pick has maxed out its points.</p>`);
+  }
 }
 
 /* ---------------- Wins by Week chart ---------------- */
